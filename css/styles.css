@@ -1,0 +1,20 @@
+.main-page {
+    width: 1375px;
+    height: 768px;
+    background: linear-gradient(180deg, #0019FF 0%, #FAFF00 98.18%);
+}
+
+.main-page-text-container {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 60px;
+}
+
+.launch-bttn {
+    background: #007AFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin: 60px;
+    padding: 12px 24px;
+}
