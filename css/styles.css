@@ -1,7 +1,49 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* Text */
+.main-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+
+    margin: 24 0 32;
+}
+
+.subaccent-text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #1B1D1F;
+}
+
+.header-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F
+}
+
+/* Main page */
 .main-page {
-    width: 1375px;
-    height: 768px;
     background: linear-gradient(180deg, #0019FF 0%, #FAFF00 98.18%);
+}
+
+
+
+.logo {
+    margin: 32px 0 60px 0;
 }
 
 .main-page-text-container {
@@ -10,11 +52,63 @@
     padding: 60px;
 }
 
+/* main page text+bttn */
+.submain-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+
+    margin: 0 0 60px;
+}
+
+.maingus-text {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* display: flex;
+    align-items: center; */
+    color: #1B1D1F;
+
+    margin: 0 0;
+}
+
 .launch-bttn {
     background: #007AFF;
     color: #FFFFFF;
     border: none;
     border-radius: 8px;
-    margin: 60px;
     padding: 12px 24px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Info page */
+.info-page {
+    padding: 48px 0 100px;
+    text-align: center;
+}
+
+.tryzub-info {
+    margin-bottom: 24px;
+}
+
+.info-descr {
+    width: 772px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+ 
+.gus-title {
+    margin: 8px 0 32px;
+}
+
+.gus-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    
 }
