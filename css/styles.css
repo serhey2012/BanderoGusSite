@@ -11,14 +11,13 @@ body {
     display: flex;
     justify-content: space-between;
 }
-/* Text */
+
+/* Text + bttn */
 .main-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #1B1D1F;
-
-    margin: 24 0 32;
 }
 
 .subaccent-text {
@@ -35,12 +34,23 @@ body {
     color: #1B1D1F
 }
 
+.launch-bttn {
+    background: #007AFF;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    /* outline: none; */
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
 /* Main page */
 .main-page {
     background: linear-gradient(180deg, #0019FF 0%, #FAFF00 98.18%);
 }
-
-
 
 .logo {
     margin: 32px 0 60px 0;
@@ -62,27 +72,17 @@ body {
     margin: 0 0 60px;
 }
 
-.maingus-text {
+.main-gus-text {
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
-    /* display: flex;
-    align-items: center; */
     color: #1B1D1F;
 
     margin: 0 0;
 }
 
-.launch-bttn {
-    background: #007AFF;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    padding: 12px 24px;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+.main-gus-descr {
+    margin: 24 0 32;
 }
 
 /* Info page */
@@ -91,8 +91,8 @@ body {
     text-align: center;
 }
 
-.tryzub-info {
-    margin-bottom: 24px;
+.info-title {
+    margin-top: 24px;
 }
 
 .info-descr {
@@ -100,15 +100,74 @@ body {
     margin: auto;
     margin-bottom: 24px;
 }
- 
+
 .gus-title {
     margin: 8px 0 32px;
 }
 
 .gus-descr {
+    width: 374px;
+}
+
+/* Launch page */
+.launch-page {
+    padding: 80px 0;
+    background: linear-gradient(180deg, #0019FF 0%, #FAFF00 98.18%);
+}
+
+.launch-form-container {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 32px 60px 60px;
+    width: 573px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form-title {
+    margin: 32px 0 12px;
+}
+
+.form-descr {
+    margin-bottom: 24px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.form-field-lable {
+    margin-bottom: 8px;
+}
+
+.form-field-input {
+    height: 60px;
+    width: 453px;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    padding: 0 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #1B1D1F;
-    
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
 }
